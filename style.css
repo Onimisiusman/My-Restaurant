@@ -1,0 +1,774 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8fafb;
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #eeeeee;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #eeeeee;
+
+}
+
+.text h1 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #c84e20;
+}
+
+.navbar_links {
+    margin-left: auto;
+    margin-right: 350px;
+}
+
+.navbar_links ul {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    list-style: none;
+}
+.ul:hover {
+    background: #c84e20;
+    transform: translateY(-2px);
+    
+}
+
+
+.navbar_links a {
+    
+    color: #101629;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+body {
+    background: #f8fafb;
+    font-family: Arial, sans-serif;
+   color: #101629;
+}
+
+.order {
+    position: absolute;
+    right: 18px;
+    background: #2b2d33;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.order:hover{
+     background: #c84e20;
+    transform: translateY(-2px);
+
+}
+/* 
+.body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   align-items: center;
+} */
+
+.location {
+    position: absolute;
+    left: 59px;
+    top: 120px;
+}
+
+.location p {
+    display: inline-block;
+
+    background: #f3e5df;
+    color: #f07143;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width:90%;margin: auto;
+}
+
+
+.content {
+    /* position: absolute;
+   left: 59px;
+    top: 215px;
+    width: 540px; */
+    width:50%
+}
+
+.content h1 {
+    font-family: Georgia, serif;
+        font-size: 76px;
+        font-weight: normal;
+    line-height: 0.95;
+    color: #101629;
+    margin-bottom: 25px;
+}
+
+.content h1 span {
+    color: #d34813;
+    font-style: italic;
+}
+
+.content p {
+    color: #526078;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 38px;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-menu {
+    background: transparent;
+    border: 2px solid #101629;
+    color: #101629;
+    padding: 14px 32px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #d34813;
+    border: 2px solid #d34813;
+    color: white;
+    padding: 14px 32px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(211, 72, 19, 0.2);
+}
+
+ /* .back-img { 
+     position: absolute;
+    right: 60px;
+    top: 5px; 
+/* } */
+
+.back-img {
+    width: 600px;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 17px 17px 17PX 17px;
+    display: block;
+    
+   
+    
+}
+ .back-img {
+     background-image:  url(./image/WhatsApp\ Image\ 2026-09-01\ at\ 11.31.32.jpeg );
+    
+ }
+.image .inner_img{
+    position: relative;
+    top:0px;
+}
+.image .rate{
+    /* position: absolute; */
+
+    border-radius: 15px;
+    background-color: #ffffff;
+     width: 350px;
+    height: 110px;
+   
+    position: absolute; 
+    bottom: -2%;
+}
+.image p{
+    font-family: Georgia, 'Times New Roman';
+    font-weight: 100;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+
+.star{
+    color: gold;
+    margin-left: 30px;
+}
+
+.image span{
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.signature {
+    width: 100%;
+    min-height: 180px;
+    padding: 80px 59px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #eeeeee;
+    background-color: #ffffff;
+    margin-left: 15px;
+}
+
+.signature-title h2 {
+    font-family: Georgia, serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: #24262c;
+    margin-bottom: 12px;
+}
+
+
+.signature-text {
+    width: 390px;
+    margin-right: 90px;
+}
+
+.signature-text p {
+    color: #383c42;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.img {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-family: Georgia,  serif;
+    margin-right: 10px;
+}
+.img span {
+    color: #c84e20;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card {
+    width: 380px;
+    
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 100%;
+    height: 350px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+
+.img1 {
+    background-image: url("image/WhatsApp Image 2026-09-01 at 11.31.53.jpeg");
+    transition: transform 0.5s ease;
+}
+
+.img2 {
+    background-image: url("image/WhatsApp Image 2026-09-01 at 11.32.02.jpeg");
+    transition: transform 0.5s ease;
+}
+
+.img3 {
+    background-image: url("image/WhatsApp Image 2026-09-01 at 11.32.09.jpeg");
+
+     transition: transform 9s ease;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover {
+    background-size: 105%;
+    
+}
+
+
+
+.info {
+    padding-top: 15px;
+}
+
+.cc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cc h3 {
+    margin: 0;
+}
+
+.cc span {
+    font-weight: bold;
+}
+
+.info p {
+    margin-top: 8px;
+    color: #666;
+}
+
+
+.site-footer{
+display: grid;
+    
+    gap: 32px;
+    padding: 23px 24px;
+    width: 100%;
+    background-color: #101629;
+    width: auto;
+    height: 300px;
+    justify-items: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman',serif;
+    
+    color: #eeeeee;
+    margin-top: 200px;
+    grid-template-columns: repeat(4, 2fr);
+
+}
+.site-footer h4{
+    color: #a84019;
+    margin-bottom: 18px;
+    display: grid;
+}
+
+.year{
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    width:auto;
+    height: 100px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+
+
+@media (max-width: 768px) {
+
+   
+    .navbar {
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        height: auto;
+
+        min-height: 60px;
+
+        padding: 15px 20px;
+
+        display: flex;
+
+        flex-direction: row;
+
+        gap: 0px;
+
+        z-index: 1000;
+
+    }
+
+    .text h1 {
+
+        font-size: 24px;
+
+    }
+
+    .navbar_links {
+
+        margin: 0;
+
+        width: 100%;
+
+    }
+
+    .navbar_links ul {
+
+        display: flex;
+
+        flex-direction: row;
+
+        gap: 8px;
+
+        width: 100%;
+
+    }
+
+    .navbar_links a {
+
+        font-size: 11px;
+
+    }
+
+    .order {
+
+        position: static;
+
+        width: 160px;
+
+        padding: 10px 20px;
+
+    }
+
+    
+
+    .body {
+
+        width: 100%;
+
+        height: auto;
+
+        padding-top: 240px;
+
+    }
+
+    .location {
+
+        position: static;
+
+        margin: 25px 20px;
+
+    }
+
+    .location p {
+
+        font-size: 8px;
+
+    }
+
+    .main {
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 20px;
+
+        margin: 0;
+
+    }
+
+    .content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .content h1 {
+
+        font-size: 50px;
+
+        line-height: 1;
+
+        margin-bottom: 20px;
+
+    }
+
+    .content p {
+
+        font-size: 15px;
+
+        line-height: 1.5;
+
+        margin-bottom: 25px;
+
+    }
+
+   
+
+   
+
+    .start {
+
+        display: flex;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        gap: 12px;
+
+        margin-bottom: 35px;
+
+    }
+
+    .btn-menu,
+
+    .btn-primary {
+
+        width: 100%;
+
+        max-width: 300px;
+
+    }
+
+   
+
+    .image {
+
+        width: 100%;
+
+    }
+
+    .image .inner_img {
+
+        width: 100%;
+
+    }
+
+    .back-img {
+
+        width: 100%;
+
+        height: 400px;
+
+        border-radius: 15px;
+
+        background-size: cover;
+
+        background-position: center;
+
+    }
+
+    .image .rate {
+
+        width: 85%;
+
+        max-width: 350px;
+
+        height: 105px;
+
+        left: 50%;
+
+        bottom: -25px;
+
+        transform: translateX(-50%);
+
+    }
+
+    .image p {
+
+        font-size: 14px;
+
+    }
+
+    
+
+    .signature {
+
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 80px 20px 35px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+    .signature-title h2 {
+
+        font-size: 38px;
+
+        line-height: 1.1;
+
+    }
+
+    .signature-text {
+
+        width: 100%;
+
+        margin-right: 0;
+
+    }
+
+    .signature-text p {
+
+        font-size: 14px;
+
+        line-height: 1.5;
+
+    }
+
+    .signature-text p br {
+
+        display: none;
+
+    }
+
+    .img { 
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 35px;
+
+        padding: 20px;
+
+    }
+
+    .card {
+
+        width: 100%;
+
+    }
+
+    .img1,
+
+    .img2,
+
+    .img3 {
+
+        width: 100%;
+
+        height: 330px;
+
+        border-radius: 15px;
+
+    }
+
+    .info {
+
+        padding-top: 15px;
+
+    }
+
+    .cc h3 {
+
+        font-size: 18px;
+
+    }
+
+    .cc span {
+
+        font-size: 15px;
+
+    }
+
+    .info p {
+
+        font-size: 14px;
+
+        line-height: 1.5;
+
+    }
+
+   
+    .site-footer {
+
+        width: 100%;
+
+        height: auto;
+
+        margin-top: 80px;
+
+        padding: 45px 25px;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 40px 20px;
+
+        justify-items: start;
+
+        align-items: start;
+
+    }
+
+    .site-footer h4 {
+
+        font-size: 16px;
+
+        margin-bottom: 12px;
+
+    }
+
+    .site-footer p {
+
+        font-size: 13px;
+
+        line-height: 1.6;
+
+    }
+
+    .year {
+
+        height: 80px;
+
+        padding: 15px 20px;
+
+        font-size: 11px;
+
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+    
+
+
+
+
