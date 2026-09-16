@@ -348,29 +348,29 @@ body {
 
 
 .site-footer{
-display: grid;
+    display: grid;
     
     gap: 28px;
     padding: 23px 24px;
     width: 100%;
+     
     background-color: #101629;
     width: auto;
     height: 300px;
     justify-items: center;
     align-items: center;
-    font-family: Georgia,serif;
+    
     justify-content: center;
     
     color: #eeeeee;
-    margin-top: 200px;
-    grid-template-columns: repeat(4, 2fr);
+    margin-top: 200px; 
+    grid-template-columns: repeat(4, 2fr); 
 
 }
 .site-footer h4{
     color: #a84019;
     margin-bottom: 18px;
-    display: grid;
-    margin-left: 15px;
+    
 }
 
 .year{
@@ -478,13 +478,13 @@ cursor: pointer;
 
 
 .dropdown {
-display: inline;
+display: none;
 position: absolute;
 top: 42px;
 right: 0;
 width: 150px;
 background: #eeeeee;
-border: 1px solid #dddddd;
+
 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 z-index: 2000;
 }
@@ -774,35 +774,34 @@ padding-top: 80px;
    
     .site-footer {
 
-        width: auto;
+         width: 100%;
 
-        height: auto;
+         height: auto;
 
-        margin-top: 80px;
+         margin-top: 80px; 
 
-        padding: 45px 25px;
+         padding: 45px 25px;  
 
-        display: grid;
+        display: flex;
 
-        grid-template-columns: repeat(1, 1fr);
+         flex-direction: column;
 
-        gap: 40px 20px;
+        gap: 40px 20px; 
 
-        justify-items: center;
+         justify-items: center;
 
         align-items: center;
-        justify-content: center;
+        justify-content: center;  
 
     }
-
    
     .site-footer p {
 
         font-size: 15px;
 
-        line-height: 1.6;
+        /* line-height: 1.6; */
 
-    }
+    } 
 
     .year {
 
